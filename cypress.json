@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://api-petgram.vercel.app/",
+    "chromeWebSecurity": false,
+    "viewportWidth": 500,
+    "viwportHeight": 800
+}
