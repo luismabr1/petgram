@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "now-build": "build && mv build dist",
+        "now-build": "build && mv build dist webpack  --mode=production",
         "build": "webpack  --mode=production",
         "dev": "webpack-dev-server --open --history-api-fallback",
         "serve:dev": "webpack --mode 'development' && npx serve dist -s",
