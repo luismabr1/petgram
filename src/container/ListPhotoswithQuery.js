@@ -16,7 +16,7 @@ const query = gql`
     }
   }
 `
-export const ListOfPhotoCardsWithQuery = ({ categoryId }) => (
+export const ListPhotoswithQuery = ({ categoryId }) => (
   <Query query={query} variables={{ categoryId }}>
     {
       ({ loading, error, data }) => {
